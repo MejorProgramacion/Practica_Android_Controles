@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Controles</string>
+
+
+    <string name="Texto1">Texto desde archivo string</string>
+
+
+</resources>

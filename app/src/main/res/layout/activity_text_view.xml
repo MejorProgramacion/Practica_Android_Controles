@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextViewActivity">
+
+
+    <TextView
+        android:id="@+id/TxtTextoString"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/Texto1"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/TxtTextoDirecto"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Texto directo"
+        />
+
+    <TextView
+        android:id="@+id/TxtTextoEnriquecido"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Texto enriquecido"
+        />
+
+    <TextView
+        android:id="@+id/TxtCambioTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Texto inicial"
+        />
+
+    <Button
+        android:id="@+id/BtnCambiarTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar texto"
+        />
+
+</LinearLayout>
