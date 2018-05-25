@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Texto" parent="@android:style/TextAppearance.DeviceDefault.Large.Inverse">
+        <item name="android:textColor">#0084ff</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">Texto enriquecido</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_marginLeft">2dip</item>
+        <item name="android:layout_marginRight">2dip</item>
+        <item name="android:layout_marginTop">8dip</item>
+    </style>
+
 </resources>

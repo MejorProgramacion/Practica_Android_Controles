@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TextViewActivity"></activity>
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".OoptionsActivity" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".TabsActivity"></activity>
     </application>
 
 </manifest>

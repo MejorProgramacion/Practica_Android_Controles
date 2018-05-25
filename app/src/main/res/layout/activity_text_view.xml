@@ -25,9 +25,9 @@
 
     <TextView
         android:id="@+id/TxtTextoEnriquecido"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="Texto enriquecido"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/Texto"
         />
 
     <TextView
