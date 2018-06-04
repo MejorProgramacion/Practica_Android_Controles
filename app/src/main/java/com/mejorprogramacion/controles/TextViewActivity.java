@@ -1,5 +1,6 @@
 package com.mejorprogramacion.controles;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,6 +28,7 @@ public class TextViewActivity extends AppCompatActivity{
         public void onClick(View Btn){
             if(Btn == BtnCambiarTexto){
                 TxtCambioTexto.setText("Este texto fue cambiado por código");
+                TxtCambioTexto.setTextColor(Color.RED);
             }
         }
     }

@@ -48,6 +48,34 @@ public class Principal extends AppCompatActivity {
                 Intent i = new Intent(Principal.this,TextViewActivity.class);
                 startActivity(i);
             }
+            else if(Btn == BtnEditText){
+                Intent i = new Intent(Principal.this,EditTextActivity.class);
+                startActivity(i);
+            }
+            else if(Btn == BtnButton){
+                Intent i = new Intent(Principal.this,ButtonActivity.class);
+                startActivity(i);
+            }
+            else if(Btn == BtnListView){
+                Intent i = new Intent(Principal.this,ListViewActivity.class);
+                startActivity(i);
+            }
+            else if(Btn == BtnCalendar){
+                Intent i = new Intent(Principal.this,CalendarActivity.class);
+                startActivity(i);
+            }
+            else if(Btn == BtnOptions){
+                Intent i = new Intent(Principal.this,OoptionsActivity.class);
+                startActivity(i);
+            }
+            else if(Btn == BtnImages){
+                Intent i = new Intent(Principal.this,ImageActivity.class);
+                startActivity(i);
+            }
+            else if(Btn == BtnTabs){
+                Intent i = new Intent(Principal.this,TabsActivity.class);
+                startActivity(i);
+            }
 
         }
     }

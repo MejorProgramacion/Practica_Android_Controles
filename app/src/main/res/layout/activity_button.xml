@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ButtonActivity">
+
+    <Button
+        android:id="@+id/BtnNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/BtnImagen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/youtube_boton"/>
+
+    <ImageButton
+        android:id="@+id/BtnImagen2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/youtube_boton"/>
+
+
+    <ImageButton
+        android:id="@+id/BtnVector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_cloud_download_black_24dp"
+        />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BtnRectangular"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/botonazul"
+        android:text="Boton rectangular"
+        android:textColor="#ffffff" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/BtnFloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_cloud_download_black_24dp" />
+
+
+</LinearLayout>
