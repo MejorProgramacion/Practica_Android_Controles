@@ -23,7 +23,11 @@
         <activity android:name=".CalendarActivity" />
         <activity android:name=".OoptionsActivity" />
         <activity android:name=".ImageActivity" />
-        <activity android:name=".TabsActivity"></activity>
+        <activity android:name=".TabsActivity" />
+        <activity
+            android:name=".TabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -73,7 +73,7 @@ public class Principal extends AppCompatActivity {
                 startActivity(i);
             }
             else if(Btn == BtnTabs){
-                Intent i = new Intent(Principal.this,TabsActivity.class);
+                Intent i = new Intent(Principal.this,TabActivity.class);
                 startActivity(i);
             }
 
