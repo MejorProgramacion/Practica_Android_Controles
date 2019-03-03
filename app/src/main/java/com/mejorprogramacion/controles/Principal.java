@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class Principal extends AppCompatActivity {
 
-    Button BtnTextView, BtnEditText, BtnButton, BtnListView, BtnCalendar, BtnOptions, BtnImages, BtnTabs;
+    Button BtnTextView, BtnEditText, BtnButton, BtnListView, BtnCalendar, BtnOptions, BtnTabs, BtnNotificaciones, BtnBaseDatos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,14 +33,15 @@ public class Principal extends AppCompatActivity {
         BtnOptions = (Button) findViewById(R.id.BtnOptions);
         BtnOptions.setOnClickListener(new ClickEvent());
 
-        BtnImages = (Button) findViewById(R.id.BtnImages);
-        BtnImages.setOnClickListener(new ClickEvent());
-
         BtnTabs = (Button) findViewById(R.id.BtnTabs);
         BtnTabs.setOnClickListener(new ClickEvent());
 
-    }
+        BtnNotificaciones = (Button) findViewById(R.id.BtnNotificaciones);
+        BtnNotificaciones.setOnClickListener(new ClickEvent());
 
+        BtnBaseDatos = (Button) findViewById(R.id.BtnBaseDatos);
+        BtnBaseDatos.setOnClickListener(new ClickEvent());
+    }
 
     class ClickEvent implements View.OnClickListener{
         public void onClick(View Btn){
@@ -68,17 +69,22 @@ public class Principal extends AppCompatActivity {
                 Intent i = new Intent(Principal.this,OoptionsActivity.class);
                 startActivity(i);
             }
-            else if(Btn == BtnImages){
-                Intent i = new Intent(Principal.this,ImageActivity.class);
+            else if(Btn == BtnTabs){
+                Intent i = new Intent(Principal.this,TabActivity.class);
                 startActivity(i);
             }
-            else if(Btn == BtnTabs){
-                Intent i = new Intent(Principal.this,TabsActivity.class);
+            else if(Btn == BtnNotificaciones){
+                Intent i = new Intent(Principal.this,Notificaciones.class);
+                startActivity(i);
+            }
+            else if(Btn == BtnBaseDatos){
+                Intent i = new Intent(Principal.this, BaseDatosActivity.class);
                 startActivity(i);
             }
 
         }
     }
+
 
 
 

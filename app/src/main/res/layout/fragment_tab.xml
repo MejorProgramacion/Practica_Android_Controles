@@ -2,17 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ListViewActivity">
+    android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/Listado"
+    <ImageView
+        android:id="@+id/Imagen1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-    </ListView>
+        android:layout_height="match_parent"
+        android:src="@drawable/youtube_boton"/>
 
 </LinearLayout>

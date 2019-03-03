@@ -1,9 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OoptionsActivity">
+    tools:context=".OoptionsActivity"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner"
+        android:layout_gravity="center"/>
+
+    <Spinner
+        android:id="@+id/CmbOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"></Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checkbox"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/ChkRuta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Ruta Lunes"/>
+
+    <CheckBox
+        android:id="@+id/ChkRuta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Ruta Miercoles"/>
+
+    <CheckBox
+        android:id="@+id/ChkRuta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Ruta Viernes"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        android:layout_gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGrupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RadioCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Crear"/>
+
+        <RadioButton
+            android:id="@+id/RadioConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Consultar"/>
+
+        <RadioButton
+            android:id="@+id/RadioEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Eliminar"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/LblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/BtnOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comprobar"/>
+
+
+</LinearLayout>

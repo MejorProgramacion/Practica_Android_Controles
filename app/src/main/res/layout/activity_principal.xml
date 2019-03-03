@@ -53,15 +53,21 @@
         android:text="Spinner / Check / Radio"/>
 
     <Button
-        android:id="@+id/BtnImages"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Image"/>
-
-    <Button
         android:id="@+id/BtnTabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tabs"/>
+
+    <Button
+        android:id="@+id/BtnNotificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificaciones"/>
+
+    <Button
+        android:id="@+id/BtnBaseDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Base de datos"/>
 
 </LinearLayout>

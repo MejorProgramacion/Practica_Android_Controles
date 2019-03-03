@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ListViewActivity">
+    tools:context=".SnackbarActivity">
 
-    <ListView
-        android:id="@+id/Listado"
+    <Button
+        android:id="@+id/BtnNotificacion"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:text="Mostrar notificación"/>
 
-
-    </ListView>
 
 </LinearLayout>

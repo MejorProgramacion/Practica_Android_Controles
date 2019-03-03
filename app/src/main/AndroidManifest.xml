@@ -16,14 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TextViewActivity" />
+        <activity
+            android:name=".TextViewActivity"
+            android:label="TextView" />
         <activity android:name=".EditTextActivity" />
         <activity android:name=".ButtonActivity" />
         <activity android:name=".ListViewActivity" />
         <activity android:name=".CalendarActivity" />
         <activity android:name=".OoptionsActivity" />
-        <activity android:name=".ImageActivity" />
-        <activity android:name=".TabsActivity"></activity>
+        <activity
+            android:name=".TabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Notificaciones" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".DialogoActivity" />
+        <activity android:name=".PushActivity" />
+        <activity android:name=".SnackbarActivity" />
+        <activity android:name=".BaseDatosActivity"></activity>
     </application>
 
 </manifest>

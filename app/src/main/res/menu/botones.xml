@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/MenuAgregar" android:icon="@android:drawable/ic_menu_add" app:showAsAction="always"   android:title="Agregar"/>
+    <item android:id="@+id/MenuRegresar" android:icon="@android:drawable/ic_menu_revert" app:showAsAction="always|withText" android:title="Regresar"/>
+    <item  android:id="@+id/MenuEnviar" android:icon="@android:drawable/ic_dialog_info" app:showAsAction="never" android:title="Enviar"></item>
+    <item android:id="@+id/MenuGuardar"  app:showAsAction="never" android:title="Guardar"/>
+
+</menu>

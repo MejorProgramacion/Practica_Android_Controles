@@ -32,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Hint animado"
+        android:layout_gravity="center"
         android:paddingBottom="35dp"
         />
     </android.support.design.widget.TextInputLayout>

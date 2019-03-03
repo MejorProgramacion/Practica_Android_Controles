@@ -5,14 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ListViewActivity">
+    tools:context=".PushActivity">
 
-    <ListView
-        android:id="@+id/Listado"
+    <Button
+        android:id="@+id/BtnNotificacionPush"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-    </ListView>
+        android:layout_height="wrap_content"
+        android:text="Notificacion Push"/>
 
 </LinearLayout>

@@ -4,12 +4,10 @@
         <shape>
         	<solid
         		android:color="#2f6699" />
-           
         </shape>
     </item>
     <item>
         <shape>
-            
             <solid
         		android:color="#449def" />
         </shape>

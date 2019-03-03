@@ -5,14 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ListViewActivity">
+    tools:context=".DialogoActivity">
 
-    <ListView
-        android:id="@+id/Listado"
+    <Button
+        android:id="@+id/BtnDialogAlert"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:text="Dialogo alerta"/>
 
-
-    </ListView>
+    <Button
+        android:id="@+id/BtnDialogoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialogo layout"/>
 
 </LinearLayout>
